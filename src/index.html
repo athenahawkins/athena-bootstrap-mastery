@@ -1,15 +1,85 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-  <title>Bootstrap 5 Layout</title>
+  <title>Pirate Cove</title>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <!-- Content starts here -->
-  <p>Testing: 1, 2, 3, 4</p>
+  <!-- Navbar starts here -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pirate Cove</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Article</a>
+          <a class="nav-link" href="#">Photos</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron starts here -->
+  <div class="container-fluid p-0">
+    <header class="text-light text-center py-5">
+      <h1 class="display-4">SHIP'S LOG</h1>
+      <p class="lead">A diary by Capt. Little Hawk</p>
+    </header>
+  </div>
+
+  <!-- Middle h2 here -->
+  <div class="container pt-3 pb-1">
+    <h2>Thar be monsters in the sea</h2>
+  </div>
+
+  <!-- Grid section starts here-->
+  <section>
+    <div class="container mb-3">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card text-bg-light">
+            <img src="img/kraken01.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Severus the Serpent</h5>
+              <p class="card-text">Measured fer yer chains topsail flogging no prey, no pay run a rig Pirate Round lass hands Jolly Roger snow. Fluke tack main sheet hogshead topsail warp bilge water.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-bg-light">
+            <img src="img/kraken02.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lawrence Leviathan</h5>
+              <p class="card-text">Killick ye interloper overhaul coffer Sink me tackle warp Buccaneer mizzenmast. Davy Jones' Locker knave flogging haul wind piracy line pirate ye rutters execution dock.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-bg-light">
+            <img src="img/kraken03.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Charles Charybdis</h5>
+              <p class="card-text">Reef sails tackle hardtack jib hempen halter Nelsons folly brig lugger man-of-war yardarm. Port boom Chain Shot skysail jury mast spanker take a caulk fire ship bilge. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+  <!-- Footer starts here -->
+  <footer class="p-2 text-center text-light">
+    <p>Site by Athena Hawkins</p>
+  </footer>
 
   <!-- Closing scripts here -->
   <script src="js/bootstrap.bundle.min.js"></script>

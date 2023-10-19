@@ -24,3 +24,34 @@
 
 // Custom styles:
 
+//Add pirate ship as background image for container class
+
+header {
+  background: url('../img/pirate-ship.jpg') no-repeat center;
+  background-size: cover;
+  height: 40vh;
+}
+  h1 {
+  font-family: 'Pirata One', Times New Roman, serif;
+}
+
+// Increase the height of the background image to 25vh
+
+nav {
+  a:link, a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+footer {
+  background-color: lightseagreen;
+  text-align: center;
+
+}
+
+
+
