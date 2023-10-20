@@ -21,37 +21,18 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials:
+@import 'nav';
+@import 'footer';
+@import 'jumbotron';
 
 // Custom styles:
 
-//Add pirate ship as background image for container class
-
-header {
-  background: url('../img/pirate-ship.jpg') no-repeat center;
-  background-size: cover;
-  height: 40vh;
-}
-  h1 {
-  font-family: 'Pirata One', Times New Roman, serif;
-}
-
-// Increase the height of the background image to 25vh
-
-nav {
-  a:link, a:visited {
-    text-decoration: none;
+// Adds text shadow to carousel captions to increase visibility
+.lower-caption {
+    color: #fff;
+    text-shadow:
+      3px 3px 2px #000,
+      -3px 3px 2px #000,
+      -3px -3px 0 #000,
+      3px -3px 0 #000;
   }
-
-  a:hover {
-    text-decoration: underline;
-  }
-}
-
-footer {
-  background-color: lightseagreen;
-  text-align: center;
-
-}
-
-
-

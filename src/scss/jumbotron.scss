@@ -1,0 +1,13 @@
+header {
+  background: url('../img/pirate-ship.jpg') no-repeat center;
+  background-size: cover;
+  height: 35vh; // Increase the height of the background image for jumbotron look
+}
+  h1 {
+  font-family: 'Pirata One', Times New Roman, serif; // From Google font
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}

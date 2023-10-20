@@ -12,21 +12,27 @@
 
 <body>
   <!-- Navbar starts here -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Pirate Cove</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Article</a>
-          <a class="nav-link" href="#">Photos</a>
-        </div>
-      </div>
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Pirate Cove</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="article.html">Article</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="photos.html">Photos</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <!-- Jumbotron starts here -->
   <div class="container-fluid p-0">
@@ -37,16 +43,15 @@
   </div>
 
   <!-- Middle h2 here -->
-  <div class="container pt-3 pb-1">
+  <div class="container pt-2 pb-.5">
     <h2>Thar be monsters in the sea</h2>
   </div>
 
   <!-- Grid section starts here-->
-  <section>
-    <div class="container mb-3">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+  <section class="container py-2">
+      <div class="row row-cols-1 row-cols-md-3 g-3">
         <div class="col">
-          <div class="card text-bg-light">
+          <div class="card text-bg-white">
             <img src="img/kraken01.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Severus the Serpent</h5>
@@ -55,7 +60,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card text-bg-light">
+          <div class="card text-bg-white">
             <img src="img/kraken02.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Lawrence Leviathan</h5>
@@ -64,7 +69,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card text-bg-light">
+          <div class="card text-bg-white">
             <img src="img/kraken03.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Charles Charybdis</h5>
@@ -73,7 +78,6 @@
           </div>
         </div>
       </div>
-    </div>
     </section>
 
   <!-- Footer starts here -->

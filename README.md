@@ -1,6 +1,6 @@
-# ICJ Bootstrap Template
+# Athena's ICJ Bootstrap Template for Pirate Site
 
-This template goes along with the [Bootstrap lessons](https://utdata.github.io/icj-class/bs-00-intro.html) for Intro to Coding for Journalists.
+My name is Athena Hawkins, and this is an assignment I'm working on for Intro Coding for Journalists where we are learning how to build websites with Bootstrap 5. It is due October 20, 2023. This template goes along with the [Bootstrap lessons](https://utdata.github.io/icj-class/bs-00-intro.html) for Intro to Coding for Journalists.
 
 It uses Bootstrap 5 and a Gulp setup to support a development environment with Sass and image management.
 
