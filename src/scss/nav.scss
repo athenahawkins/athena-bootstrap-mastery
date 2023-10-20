@@ -1,0 +1,9 @@
+nav {
+  a:link, a:visited {
+    text-decoration: none; // Changes the default link style to remove underline
+  }
+
+  a:hover {
+    text-decoration: underline; // Creates link underline on hover only
+  }
+}
